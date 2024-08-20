@@ -3,4 +3,6 @@ Created 3 different models to predict the annual average PM2.5 concentration at 
 
 Conducted a linear regression model, k-nn model, and a random forest model using relevant predictors such as CMAQ, aod, log_dist_to_prisec, log_nei_2008_pm25_sum_10000, nohs.
 
-Found that the random forest model performed the best.
+To understand all the predictors and outcome variables read the following appendix: https://github.com/Ishitajain1001/air-pollution-project/blob/main/Data%20Appendix.pdf
+
+Found that the random forest model performed the best with the lowest RMSE.
